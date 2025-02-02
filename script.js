@@ -25,3 +25,12 @@ function handleNoClick() {
 function handleYesClick() {
     window.location.href = "yes_page.html";
 }
+function playMarioMusic() {
+    const audio = new Audio('Super Mario Bros Music - Level Complete.mp3'); // Asegúrate de que el nombre es el correcto
+    audio.play();
+}
+
+function handleYesClick() {
+    alert("¡Sabía que dirías que sí! ❤️");
+    playMarioMusic(); // Reproduce la música
+}
